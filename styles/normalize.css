@@ -357,3 +357,11 @@
      padding: 0;
      margin: 0;
    }
+   
+   /**
+    * Box sizing to border-box.
+    */
+
+    *{
+      box-sizing: border-box;
+    }
