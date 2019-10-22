@@ -40,3 +40,26 @@
     font-size: 30px;
     font-weight: 700;
 }
+
+/* M E D I A Q U E R I E S * * * * * * * * */
+
+@media all and (min-width: 768px){
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+    .nav-header{
+        line-height: 61px;
+    }
+
+    .nav-header li{
+        margin: 0 0 0 20px;
+    }
+
+    .main-content{
+        font-size: 40px;
+    }
+}
