@@ -4,6 +4,8 @@
     font-family: 'Rubik', sans-serif;
 }
 
+/* H E A D E R * S T Y L E S * * * * * * * */
+
 .header{
     width: 100%;
     background-color: white;
@@ -24,6 +26,8 @@
     font-size: 16px;
 }
 
+/* M A I N * S T Y L E S * * * * * * * */
+
 .main-container{
     width: 100%;
     height: 100vh;
@@ -41,9 +45,14 @@
     font-weight: 700;
 }
 
+/* * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * */
 /* M E D I A Q U E R I E S * * * * * * * * */
 
 @media all and (min-width: 768px){
+
+    /* H E A D E R * S T Y L E S */
 
     .header{
         display: flex;
@@ -58,6 +67,8 @@
     .nav-header li{
         margin: 0 0 0 20px;
     }
+
+    /* M A I N * S T Y L E S */
 
     .main-content{
         font-size: 40px;
