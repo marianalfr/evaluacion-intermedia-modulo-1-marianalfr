@@ -18,7 +18,7 @@
     width: 155px;
 }
 
-.nav-header li{
+.nav-header a{
     display: inline-block;
     text-transform: uppercase;
     margin: 10px 10px 13px 10px;
@@ -43,6 +43,7 @@
     transform: translate(-50%,-50%);
     font-size: 30px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * */
